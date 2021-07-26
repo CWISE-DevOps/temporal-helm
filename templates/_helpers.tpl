@@ -348,3 +348,6 @@ Usage:
         {{- tpl (.value | toYaml) .context }}
     {{- end }}
 {{- end -}}
+{{- define "sql.connectionEnvData" -}}
+
+{{- end -}}
